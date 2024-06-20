@@ -43,7 +43,7 @@ export default function Component() {
         <div className="flex items-center rounded-md bg-white shadow-sm dark:bg-gray-950">
           <Input
             type="search"
-            placeholder="Search..."
+            placeholder="Search by name, for ex: Amal "
             className="flex-1 rounded-l-md border-0 bg-transparent py-2 pl-4 pr-2 text-gray-900 focus:ring-0 dark:text-gray-50"
             onChange={(e)=> setName(e.target.value)}
           />

@@ -28,8 +28,6 @@ import { Input } from "@/components/ui/input"
 
 export function Component() {
 
-
-
   return (
     <div className="flex flex-col items-center justify-center h-screen">
       <div className="w-full max-w-md space-y-4">
